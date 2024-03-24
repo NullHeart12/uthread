@@ -1,7 +1,8 @@
-# uthread
-## HFUT/合肥工业大学操作系统课程设计/用户级线程库
-## this a simple user-level thread library for HFUT OS course design
+# UThread
 
-### here i realized a simple user-level thread library in two ways. 
-the first one used the boost/context/fiber library, and the second one is a transplantation or a slavsh imitation of the fiber library.
-the first one is in the 'uthread' project, the second one is in the 'UserThread' project. and the main project is for testing the UserThread project.
+## HFUT/合肥工业大学操作系统课程设计/用户级线程库
+
+This is a simple user-level thread library for the HFUT operating systems course design.
+
+### Description
+Here, I have implemented a simple user-level thread library in two ways. The first one uses the Boost Context/Fiber library, and the second one is a transplant or a slightly imitated version of the fiber library. The first one is in the 'uthread' project, and the second one is in the 'UserThread' project. The main project is for testing the UserThread project.
