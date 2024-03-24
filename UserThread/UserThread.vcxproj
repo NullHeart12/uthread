@@ -134,22 +134,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="allocator.cpp" />
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="uthread.cpp" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="jump.asm">
       <FileType>Document</FileType>
     </MASM>
-    <None Include="jump_x86_64_ms_pe_masm.asm">
-      <FileType>Document</FileType>
-    </None>
     <MASM Include="make.asm">
       <FileType>Document</FileType>
     </MASM>
-    <None Include="make_x86_64_ms_pe_masm.asm">
-      <FileType>Document</FileType>
-    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,33 +21,13 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="allocator.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="uthread.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="fiber.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="fcontext.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="allocator.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <MASM Include="jump_x86_64_ms_pe_masm.asm">
-      <Filter>资源文件</Filter>
-    </MASM>
-    <MASM Include="make_x86_64_ms_pe_masm.asm">
-      <Filter>资源文件</Filter>
-    </MASM>
-    <MASM Include="ontop_x86_64_ms_pe_masm.asm">
-      <Filter>资源文件</Filter>
-    </MASM>
   </ItemGroup>
 </Project>

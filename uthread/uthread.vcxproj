@@ -53,9 +53,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <ImportGroup Label="ExtensionSettings">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
-  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
   <ImportGroup Label="Shared">
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -139,29 +137,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="allocator.h" />
     <ClInclude Include="fcontext.h" />
-    <ClInclude Include="fiber.h" />
     <ClInclude Include="uthread.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="allocator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="uthread.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <MASM Include="jump_x86_64_ms_pe_masm.asm">
-      <FileType>Document</FileType>
-    </MASM>
-    <MASM Include="make_x86_64_ms_pe_masm.asm">
-      <FileType>Document</FileType>
-    </MASM>
-    <MASM Include="ontop_x86_64_ms_pe_masm.asm">
-      <FileType>Document</FileType>
-    </MASM>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
-  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
 </Project>

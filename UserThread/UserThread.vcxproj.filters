@@ -29,9 +29,6 @@
     <ClCompile Include="allocator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="uthread.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -43,13 +40,5 @@
     <MASM Include="jump.asm">
       <Filter>资源文件</Filter>
     </MASM>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="make_x86_64_ms_pe_masm.asm">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="jump_x86_64_ms_pe_masm.asm">
-      <Filter>资源文件</Filter>
-    </None>
   </ItemGroup>
 </Project>
